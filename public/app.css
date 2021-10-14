@@ -217,12 +217,12 @@ nav.nav a:first-child {
 /** hero **/
 .hero {
     height: 38rem;
-    background-image: url(../img/hero.jpg);
-    background-size: cover;
+    background-image: url(../img/hero.png);
+    background-size: cover;    
     background-position: center center;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 
 }
@@ -230,6 +230,8 @@ nav.nav a:first-child {
     max-width:800px;
     color: white;
 }
+
+
 
 /** Buscador Inicio **/
 .buscador-inicio {
